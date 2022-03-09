@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
+//import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './ProfileStyles';
 
 const Hero = (props) => (
@@ -14,6 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Description
       </SectionText>
+      
     </LeftSection>
 
   </Section>
