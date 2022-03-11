@@ -6,15 +6,15 @@ import { DiCssdeck } from 'react-icons/di';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
-  <Container>
-    <Div1>
+  <Container id='#top'>
+    {/* <Div1>
       <Link href = '#'>
         <a style={ {display: 'flex', alignItems: 'center', color: 'white' , marginBottom:'1rem'}}>
           <DiCssdeck size= '3rem'/>
           <Span>Portfolio</Span>
         </a>
       </Link>
-    </Div1>
+    </Div1> */}
     <Div2>
       <li>
         <Link href='#projects'>

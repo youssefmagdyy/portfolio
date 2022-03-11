@@ -12,9 +12,32 @@ const Projects = () => (
         </SectionTitle>
         <GridContainer>
           {projects.map((project) =>(
-            <div>
-              {project.title}
-            </div>
+            <BlogCard key ={project.id}>
+              <Img src={project.image}/>
+              <TitleContent>
+                 <HeaderThree title>
+                   {project.title}
+                 </HeaderThree>
+                 <Hr/>
+              </TitleContent>
+              <CardInfo>
+                {project.description}
+              </CardInfo>
+              <div>
+                <br/>
+                <TitleContent>
+                  Stack
+                </TitleContent>
+                <TagList>
+                  {(project.tags).map((tag,i)=>(<Tag key={i}>
+                    {tag}
+                  </Tag>))}
+                </TagList>
+              </div>
+              <UtilityList>
+                <ExternalLinks href={project.link}>Code</ExternalLinks>
+              </UtilityList>
+            </BlogCard>
           ))}
         </GridContainer>
     </Section>

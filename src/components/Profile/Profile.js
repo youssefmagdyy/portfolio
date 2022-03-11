@@ -1,23 +1,19 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-//import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './ProfileStyles';
 
-const Hero = (props) => (
+const Profile = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        Youssef Magdy
       </SectionTitle>
       <SectionText>
-        Description
+         Front-End Developer
       </SectionText>
-      
     </LeftSection>
 
   </Section>
 );
 
-export default Hero;
+export default Profile;
