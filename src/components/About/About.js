@@ -9,7 +9,7 @@ const About = () => {
         About Me
         </SectionTitle>
         <SectionText>
-          Talk a bit about me
+          Talk a bit about me asdadsdasdasdasd
         </SectionText>
       </Section>
   );
