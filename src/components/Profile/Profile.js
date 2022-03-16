@@ -6,10 +6,11 @@ const Profile = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Youssef Magdy
+      Hello, <br />
+          I'm Youssef Magdy
       </SectionTitle>
       <SectionText>
-         Front-End Developer
+         Web Developer
       </SectionText>
     </LeftSection>
 

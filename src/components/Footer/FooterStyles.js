@@ -48,6 +48,7 @@ max-width: 1040px;
 display: flex;
 justify-content: space-between;
 
+
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
   justify-content: space-between;
@@ -61,10 +62,7 @@ justify-content: space-between;
 `
 
 export const CompanyContainer = styled.div`
-  display: flex;
-	align-items:baseline;
-	flex-wrap: wrap;
-	margin-right: auto;
+
 	
 
 	@media ${props => props.theme.breakpoints.md}{

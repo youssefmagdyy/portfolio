@@ -6,7 +6,7 @@ import {NavLink, SocialIcons} from '../Header/HeaderStyles';
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id='footer'>
       <LinkList>
       <LinkColumn>
       <LinkTitle>
@@ -18,9 +18,14 @@ const Footer = () => {
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-      
+      <CompanyContainer>
+      <Link href='#top'>
+          <NavLink>
+          Scroll to Top
+            </NavLink>
+         </Link>
+        </CompanyContainer>
         <SocialContainer>
-       
         <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
         <AiFillLinkedin size= '3rem'/>
       </SocialIcons>
@@ -29,13 +34,7 @@ const Footer = () => {
       </SocialIcons>
       </SocialContainer>
       </SocialIconsContainer>
-      <div style={{justifyContent: "center", display: 'flex'}}>
-      <Link href='#top'>
-          <NavLink>
-          Scroll to Top
-            </NavLink>
-         </Link>
-         </div>
+      
     </FooterWrapper>
   );
 };

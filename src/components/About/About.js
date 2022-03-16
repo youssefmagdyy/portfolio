@@ -3,7 +3,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 
 const About = () => {
   return (
-    <Section id='about'>
+    <Section nopadding id='about'>
       <SectionDivider/>
       <SectionTitle main>
         About Me

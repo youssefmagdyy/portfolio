@@ -37,6 +37,13 @@ const Header = () =>  (
             </NavLink>
          </Link>
       </li>
+      <li>
+        <Link href='#footer'>
+          <NavLink>
+            Contact
+            </NavLink>
+         </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
