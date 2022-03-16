@@ -5,7 +5,7 @@ import { projects } from '../../data/data';
 
 const Projects = () => (
   <div>
-    <Section nopadding id='projects'>
+    <Section id='projects'>
       <SectionDivider/>
       <SectionTitle main>
         Projects
@@ -26,7 +26,7 @@ const Projects = () => (
               <div>
                 <br/>
                 <TitleContent>
-                  Stack
+                Used technologies:
                 </TitleContent>
                 <TagList>
                   {(project.tags).map((tag,i)=>(<Tag key={i}>
@@ -41,6 +41,7 @@ const Projects = () => (
           ))}
         </GridContainer>
     </Section>
+    <br />
   </div>
 );
 

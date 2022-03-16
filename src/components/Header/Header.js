@@ -31,13 +31,6 @@ const Header = () =>  (
          </Link>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>
-            About
-            </NavLink>
-         </Link>
-      </li>
-      <li>
         <Link href='#footer'>
           <NavLink>
             Contact
@@ -46,12 +39,12 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
+      {/* <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
         <AiFillLinkedin size= '3rem'/>
       </SocialIcons>
       <SocialIcons href='https://github.com/youssefmagdyy/'>
         <AiFillGithub size= '3rem'/>
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
     </Container>
 );

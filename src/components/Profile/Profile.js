@@ -10,7 +10,7 @@ const Profile = (props) => (
           I'm Youssef Magdy
       </SectionTitle>
       <SectionText>
-         Web Developer
+         Web Developer/ CS & Engineering Undergrad Student
       </SectionText>
     </LeftSection>
 
