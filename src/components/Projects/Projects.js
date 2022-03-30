@@ -26,7 +26,7 @@ const Projects = () => (
               <div>
                 <br/>
                 <TitleContent>
-                Used technologies:
+                Made with:
                 </TitleContent>
                 <TagList>
                   {(project.tags).map((tag,i)=>(<Tag key={i}>
