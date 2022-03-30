@@ -49,10 +49,11 @@ const Technologies = () =>  (
           </ListTitle>
           <ListParagraph>
           Experience with <br />
-            Java <br />
+          Git version control <br />
+          Java <br />
             Python <br />
-            SQL <br />
-            Git version control
+            SQL
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>

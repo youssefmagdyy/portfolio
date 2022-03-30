@@ -1,8 +1,9 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { CgArrowUpO } from 'react-icons/cg';
 import Link from 'next/link';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
-import {NavLink, SocialIcons} from '../Header/HeaderStyles';
+import {NavLink, SocialIcons, UpIcon} from '../Header/HeaderStyles';
 
 const Footer = () => {
   return (
@@ -19,11 +20,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
       <CompanyContainer>
-      <Link href='#top'>
-          <NavLink>
-          Scroll to Top
-            </NavLink>
-         </Link>
+      <UpIcon href='#top'>
+      <CgArrowUpO size= '3rem'/>
+      </UpIcon>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
@@ -34,7 +33,6 @@ const Footer = () => {
       </SocialIcons>
       </SocialContainer>
       </SocialIconsContainer>
-      
     </FooterWrapper>
   );
 };
