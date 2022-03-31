@@ -140,4 +140,6 @@ border-radius: 50px;
     cursor: pointer;
     
   }
+
+}
 `

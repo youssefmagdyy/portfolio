@@ -21,7 +21,8 @@ const Footer = () => {
       <SocialIconsContainer>
       <CompanyContainer>
       <UpIcon href='#top'>
-      <CgArrowUpO size= '5rem'/>
+      <CgArrowUpO size= '4rem'/>
+
       </UpIcon>
         </CompanyContainer>
         <SocialContainer>
