@@ -19,12 +19,6 @@ const Footer = () => {
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-      <CompanyContainer>
-      <UpIcon href='#top'>
-      <CgArrowUpO size= '4rem'/>
-
-      </UpIcon>
-        </CompanyContainer>
         <SocialContainer>
         <SocialIcons href='https://www.linkedin.com/in/youssefmagdyy/'>
         <AiFillLinkedin size= '3rem'/>

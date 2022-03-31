@@ -15,8 +15,7 @@ const Profile = (props) => (
       </SectionText>
       <Button>
         <a style={{color:'white'}}
-        href="./resume.pdf"
-        download
+        href="https://docs.google.com/document/d/15f4xDkfP4FfX1BnzzyJo3f3g8ZqN-opY/edit"
       >
         My Resume
       </a>

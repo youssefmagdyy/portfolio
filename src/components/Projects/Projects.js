@@ -20,9 +20,6 @@ const Projects = () => (
                  </HeaderThree>
                  <Hr/>
               </TitleContent>
-              <CardInfo>
-                {project.description}
-              </CardInfo>
               <div>
                 <br/>
                 <TitleContent>
@@ -36,7 +33,7 @@ const Projects = () => (
               </div>
               <UtilityList>
               {project.visit && <ExternalLinks href={project.visit}>Visit</ExternalLinks>}
-                <ExternalLinks href={project.link}>Git Repo</ExternalLinks>
+                <ExternalLinks href={project.link}>Repo</ExternalLinks>
               </UtilityList>
             </BlogCard>
           ))}
