@@ -9,7 +9,7 @@ export const projects = [
 
   {
     title: 'Furniture E-commerce Website',
-      image: '/images/project2.png',
+      image: '/images/project2.PNG',
       tags: ['React.js', 'Styled Components'],
     link: 'https://github.com/youssefmagdyy/shopping-website',
     visit:'https://furniture-land.vercel.app',
