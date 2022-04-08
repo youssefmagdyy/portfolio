@@ -3,7 +3,7 @@ export const projects = [
     title: 'Flight Booking Website',
       image: '/images/project1.png',
       tags: ['MERN Stack','Material UI'],
-    link: 'https://github.com/advanced-computer-lab/AclProject',
+    link: 'https://github.com/youssefmagdyy/AclProject',
     id: 0,
   },
 
