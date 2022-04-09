@@ -7,7 +7,8 @@ const Profile = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-      Youssef Magdy
+      <br />
+          Youssef Magdy
       </SectionTitle>
       <SectionText>
          Web Developer/ Undergrad Student <br /> Based in Cairo, Egypt
