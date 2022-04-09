@@ -10,7 +10,7 @@ const About = () => {
         </SectionTitle>
         <SectionText>
           Hi! My name is Youssef Magdy, I'm a Computer Science & Engineering senior student at the German University in Cairo. <br />
-          I'm passionate about creating quality beautiful web apps and I'm practicing to become a Full Stack Developer.
+          I'm passionate about creating quality, beautiful web apps and I'm practicing to become a Full Stack Developer.
           {/* In my free time I'm usually rock climbing or at home gaming or watching movies. */}
         </SectionText>
       </Section>
