@@ -11,7 +11,7 @@ const Profile = (props) => (
           I'm Youssef Magdy
       </SectionTitle>
       <SectionText>
-         Web Developer/ CS & Engineering Undergrad Student
+         Web Developer/ Undergrad Student <br /> Based in Cairo, Egypt
       </SectionText>
       <Button>
         <a style={{color:'white'}}
