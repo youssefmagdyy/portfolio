@@ -21,6 +21,7 @@ const Technologies = () =>  (
           <ListParagraph>
          
             React.js <br />
+            Redux Toolkit <br />
             Javascript <br />
             HTML<br />
             CSS <br />
