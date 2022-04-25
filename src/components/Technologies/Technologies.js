@@ -52,8 +52,7 @@ const Technologies = () =>  (
        
           Git version control <br />
           Java <br />
-            Python <br />
-            SQL
+            Python
             
           </ListParagraph>
         </ListContainer>

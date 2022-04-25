@@ -5,7 +5,7 @@ import { projects } from '../../data/data';
 
 const Projects = () => (
   <div>
-    <Section id='projects'>
+    <Section  id='projects'>
       <SectionDivider/>
       <SectionTitle main>
         Projects
