@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Flight Booking Website',
       image: '/images/project1.png',
-      tags: ['MERN Stack','Material UI'],
+      tags: ['MERN Stack'],
     link: 'https://github.com/youssefmagdyy/AclProject',
     id: 0,
   },

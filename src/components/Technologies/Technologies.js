@@ -24,8 +24,7 @@ const Technologies = () =>  (
             Redux Toolkit <br />
             Javascript <br />
             HTML<br />
-            CSS <br />
-            Material UI
+            CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +34,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-         
            MongoDB Atlas <br />
            SQL Databases
           </ListParagraph>
