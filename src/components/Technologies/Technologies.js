@@ -28,7 +28,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
           <DiFirebase size="5rem" />
           <br />
         <ListContainer>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
            SQL Databases
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         <DiCode size='5rem'/>
         <br />
@@ -50,6 +50,7 @@ const Technologies = () =>  (
        
           Git version control <br />
           Java <br />
+          SQL <br />
             Python
             
           </ListParagraph>
