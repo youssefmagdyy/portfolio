@@ -16,6 +16,15 @@ export const projects = [
     id: 1,
   },
 
+  {
+    title: 'Fitness & Exercise Archive WIP',
+      image: '/images/project3.PNG',
+      tags: [],
+    link: 'https://github.com/youssefmagdyy/exercise-archive',
+    visit:'https://exercise-archive.vercel.app/',
+    id: 2,
+  },
+
 ];
 
 
