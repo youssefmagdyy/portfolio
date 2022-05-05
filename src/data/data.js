@@ -17,7 +17,7 @@ export const projects = [
   },
 
   {
-    title: 'Fitness & Exercise Archive WIP',
+    title: 'Fitness & Exercise Archive',
       image: '/images/project3.PNG',
       tags: [],
     link: 'https://github.com/youssefmagdyy/exercise-archive',
