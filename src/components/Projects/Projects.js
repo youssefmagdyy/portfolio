@@ -22,9 +22,11 @@ const Projects = () => (
               </TitleContent>
               <div>
                 <br/>
-                {(project.tags.length === 0)?<TitleContent>
+                {(project.wip === 1)&&<TitleContent style={{marginBottom:'10px'}}>
                 **WIP**
-                </TitleContent>:<TitleContent>Made with:</TitleContent>}
+                </TitleContent>
+                }
+                <TitleContent>Made with:</TitleContent>
                 <TagList>
                   {(project.tags).map((tag,i)=>(<Tag key={i}>
                     {tag}

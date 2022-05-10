@@ -19,10 +19,11 @@ export const projects = [
   {
     title: 'Fitness & Exercise Archive',
       image: '/images/project3.PNG',
-      tags: [],
+      tags: ['MERN Stack'],
     link: 'https://github.com/youssefmagdyy/exercise-archive',
     visit:'https://exercise-archive.vercel.app/',
     id: 2,
+    wip:1,
   },
 
 ];

@@ -28,17 +28,17 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
+      <ListItem>
           <DiFirebase size="5rem" />
           <br />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
            MongoDB Atlas <br />
-           SQL Databases
+           
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
       <ListItem>
         <DiCode size='5rem'/>
         <br />
