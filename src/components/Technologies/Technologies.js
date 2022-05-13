@@ -23,8 +23,10 @@ const Technologies = () =>  (
             React.js <br />
             Redux Toolkit <br />
             Javascript <br />
+            Sass<br />
             HTML<br />
             CSS
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>
